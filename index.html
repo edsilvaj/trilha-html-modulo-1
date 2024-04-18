@@ -1,62 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+    <title>Desafio</title>
 </head>
+
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
-
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
+    <h1 id="inicio">Introdução ao HTML</h1>
+    <p>No HTML existe uma estrtutura que deve ser seguida para a confecção de um documento, ou seja, o documento .html
+        deve conter cabeçalho, tipo de documento, e corpo (que aparecerá de fato para quem visualiza o site).</p>
+        <blockquote>Essa estrutura será explicada na seção de <strong>tags essenciais.</strong></blockquote>
+    <p>Toda tag deve ser iniciada com <"tag"> e finalizada com < /"tag"> </p>    
+    <h2>Uso de tags</h2>
     <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
+        <a href="#essencial">
+            <li>Tags Essenciais</li>
+        </a>
+        <a href="#texto">
+            <li>Tags de Texto</li>
+        </a>
+        <a href="#lista">
+            <li>Lista ordenada e não ordenada</li>
+        </a>
+        <a href="#links">
+            <li>Uso de links</li>
+        </a>
+        <a href="#refs">
+            <li>Referências</li>
+        </a>
     </ul>
-
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
+    <h3 id="essencial">Tags Essenciais</h3>
+    <a href="#inicio">Voltar</a>
+    <blockquote> Como tags essenciais, o HTML possui algumas que precisam estar em um código de forma obrigatória a fim de declarar o tipo do documento, o cabeçalho, e o corpo do site.</blockquote>
+    <blockquote>São elas:</blockquote>
     <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
+    <li>< !DOCTYPE html > | Define o tipo de documento para HTML. |</li>
+    <li>< head > | Que é o que define o cabeçalho do site, ou o que será usado como estilos etc.|
+    <li>< title > | É a tag que define o nome na aba. | </li>
+    <li>< body > | É o que vai definir onde fica o corpo do site ou texto. </li>
     </ul>
-
+    <h3 id="texto">Tags de Texto</h3>
+    <a href="#inicio">Voltar</a>
+    <ul>
+        <li>
+            <h4>Tag <strong>H</strong></h4>
+        </li>
+        <p>A tag H, serve para marcar <strong>títulos</strong>, e possuí 6 (seis) tipos, ou seja, vai desde o h1 até o h6. </p>
+        <li>
+            <h4>Tag <strong>P</strong></h4>
+        </li>
+        <p>A tag P, serve para indicar um texto, ou seja, um parágrafo e deve ser usada quando será escrito algo para que seja feita de forma continua e não faça parte de um título.</p>
+        <li>
+            <h4>Tag <strong>blockquote</strong></h4>
+        </li>
+        <p>A tag bloackquote, serve para ser usadas em citações, ou seja, deixar o texto formatado dentro de um parágrafo em evidência e separado do parágrafo em questão.</p>
+        <li>
+            <h4>Tag <strong>strong</strong></h4>
+        </li>
+        <p>A tag strong, evidencia um texto, ou seja, marca ele em <strong>negrito.</strong> Dessa forma, o texto fica em evidência sem ser alterada a formação de todo o parágrafo, pois essa tag pode ser usada de forma isolada em palavras ou trechos do texto.</p>
+        <li>
+            <h4>Tag <strong>U</strong></h4>
+        </li>
+        <p>A tag U, serve para deixar um texto <u>sublinhado</u>.</p> 
+        <li>
+            <h4>Tag <strong>I</strong></h4>
+        </li>
+        <p>A tag I, serve para deixar um texto em <i>itálico</i>.</p>
+        <li>
+            <h4>Tag <strong>sup</strong></h4>
+        </li>
+        <p>A tag sup, deixa um tipo de marcador na parte superior, ou transfere um texto para a <sup>parte de cima </sup>do parágrafo.</p>
+        <li>
+            <h4>Tag <strong>mark</strong></h4>
+        </li>
+        <p>A tag mark, torna o texto <mark>marcado em amarelo</mark>.</p>   
+    </ul>
+    <h3 id="lista">Lista ordenada e não ordenada</h3>
+    <a href="#inicio">Voltar</a>
+    <blockquote>Com o HTML podemos fazer <strong>listas</strong>, ordenadas e não ordenadas<sub>*</sub></blockquote>
+    <h5>*A lista ordenada pode ter sua forma alterada com CSS</h5>
+    <h4>Lista ordenada</h4>
+    <blockquote>A Lista ordenada, é uma lista que contém índice, ou seja, ordem e portanto é numerada de 1 a N, sendo N a quantidade de itens dessa lista.</blockquote>
+    <blockquote>Para que seja realizada a lista ordenada, deve se dar início a ela com a tag < ol > e listar os itens com a tag < li >. </li></blockquote>
+    <h4>Lista não ordenada</h4>
+    <blockquote>A Lista não ordenada, é uma lista que não contém índice, ou seja, ordem e portanto é mostrada sem uma numeração.</blockquote>
+    <blockquote>Para que seja realizada a lista não ordenada, deve se dar início a ela com a tag < ul > e listar os itens com a tag < li >. </li></blockquote>
+    <h3 id="links">Uso de Links</h3>
+    <a href="#inicio">Voltar</a>
+    <blockquote>O uso de links, serve para que seja referênciado um link em outra página, ou na mesma página e pode ser implementado da seguinte maneira.</blockquote>
+    <blockquote>  < a href="link" > "texto" < /a ></blockquote>
+    <blockquote>Sendo o href<sup>*</sup>, a onde esse "botão" será direcionado.</blockquote>
+    <h6>*O href, pode ser tanto links externos, quanto os documentos da página web que você está construindo, como index.html, about.html etc.</h6>
+    <h5>
+        Atributos do link
+    </h5>
+    <blockquote>Um outro atributo do < a > < /a >, é o target=, esse target pode ser referenciado como _self ou _blank<sup>*</sup></blockquote>
+    <blockquote>Sendo o <strong>_self</strong> responsável por abrir o link na mesma página que você já está navegando.</blockquote>
+    <blockquote>E o <strong>_blank</strong> responsável por abrir o link em uma nova janela.</blockquote>
+    <blockquote>Dessa forma a sintaxe com esse atributo fica o seguinte: < a href="link" target="_blank ou _self" > "texto" < /a ></blockquote>
+    <h6>*Por padrão o HTML executa esse atributo no modo _self caso não seja especificado.</h6>
+    <blockquote>Outro atributo do link, é o title= "texto", que exibe uma tooltip do link/atalho inserido no código.</blockquote>
+    <blockquote>Deixando a sintaxe da seguinte forma: < a href="link" tittle="tooltip" > "texto" < /a ></blockquote>
+    <h3 id="refs">Referências</h3>
+    <a href="#inicio">Voltar</a>
+    <ul>
+    <li><a href="http://www.dio.me" target="_blank">http://dio.me</a></li>
+    <li><a href="http://w3c.org" target="_blank">http://w3c.org</a></li>
+</ul>
 </body>
+
 </html>
